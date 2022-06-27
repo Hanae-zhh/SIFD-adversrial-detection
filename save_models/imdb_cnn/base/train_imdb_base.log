@@ -1,0 +1,136 @@
+2022-04-30 15:29:33,636 - INFO - run_train.py[:698] - ---args info---
+2022-04-30 15:29:33,636 - INFO - run_train.py[:699] - batch_size:256, epochs:20
+2022-04-30 15:29:33,636 - INFO - run_train.py[:703] - fgm_epsilon:1.0
+ adv_lr:0.01
+adv_K:3
+adv_init_mag:0.02
+adv_norm_type:l2
+        adv_max_norm:0
+hidden_dropout_prob:0.1
+attention_probs_dropout_prob:0
+gradient_accumulation_steps:1
+2022-04-30 15:29:33,637 - INFO - data_module.py[:20] - Initialize DataModule
+2022-04-30 15:30:13,116 - INFO - run_train.py[:698] - ---args info---
+2022-04-30 15:30:13,116 - INFO - run_train.py[:699] - batch_size:256, epochs:20
+2022-04-30 15:30:13,116 - INFO - run_train.py[:703] - fgm_epsilon:1.0
+ adv_lr:0.01
+adv_K:3
+adv_init_mag:0.02
+adv_norm_type:l2
+        adv_max_norm:0
+hidden_dropout_prob:0.1
+attention_probs_dropout_prob:0
+gradient_accumulation_steps:1
+2022-04-30 15:30:13,117 - INFO - data_module.py[:20] - Initialize DataModule
+2022-04-30 15:30:59,355 - INFO - data_module.py[:287] - Vocab size: 64828
+2022-04-30 15:30:59,357 - INFO - data_module.py[:94] - Compute pre-trained init embs
+2022-04-30 15:30:59,357 - INFO - data_module.py[:96] - Loading GloVe Model from /data/zhanghData/AttentionDefense/data/pretrained/gloVe/glove.42B.300d.txt
+2022-04-30 15:35:10,136 - INFO - data_module.py[:109] - Done. 1917494 words loaded.
+2022-04-30 15:35:10,564 - INFO - data_module.py[:123] - Finished emb. comp. 6601/64828 OOV
+2022-04-30 15:35:11,372 - INFO - data_module.py[:62] - Save data for restore
+2022-04-30 15:35:14,515 - INFO - data_module.py[:295] - Train size: 24000 (0: 12004, 1: 11996)
+2022-04-30 15:35:14,515 - INFO - data_module.py[:301] - Val size: 1000 (0: 496, 1: 504)
+2022-04-30 15:35:14,517 - INFO - data_module.py[:307] - Test size: 25000 (0: 12500, 1: 12500)
+2022-04-30 15:35:14,723 - INFO - cnn.py[:20] - Init emb with pre-trained
+2022-04-30 16:20:13,776 - INFO - run_train.py[:420] - Train: epoch 1, loss 0.44984128754189673
+2022-04-30 16:35:58,228 - INFO - run_train.py[:698] - ---args info---
+2022-04-30 16:35:58,228 - INFO - run_train.py[:699] - batch_size:256, epochs:20
+2022-04-30 16:35:58,229 - INFO - data_module.py[:20] - Initialize DataModule
+2022-04-30 16:36:34,949 - INFO - data_module.py[:287] - Vocab size: 64828
+2022-04-30 16:36:34,951 - INFO - data_module.py[:129] - Load pre-trained init embs from ./data/pretrained/cnn/imdb/pretrained_init.npy
+2022-04-30 16:36:35,038 - INFO - data_module.py[:62] - Save data for restore
+2022-04-30 16:36:38,706 - INFO - data_module.py[:295] - Train size: 24000 (0: 12004, 1: 11996)
+2022-04-30 16:36:38,707 - INFO - data_module.py[:301] - Val size: 1000 (0: 496, 1: 504)
+2022-04-30 16:36:38,708 - INFO - data_module.py[:307] - Test size: 25000 (0: 12500, 1: 12500)
+2022-04-30 16:36:38,960 - INFO - cnn.py[:20] - Init emb with pre-trained
+2022-04-30 17:22:45,948 - INFO - run_train.py[:420] - Train: epoch 1, loss 0.44984128754189673
+2022-04-30 17:23:32,199 - INFO - run_train.py[:698] - ---args info---
+2022-04-30 17:23:32,199 - INFO - run_train.py[:699] - batch_size:256, epochs:20
+2022-04-30 17:23:32,200 - INFO - data_module.py[:20] - Initialize DataModule
+2022-04-30 17:24:08,857 - INFO - data_module.py[:287] - Vocab size: 64828
+2022-04-30 17:24:08,859 - INFO - data_module.py[:129] - Load pre-trained init embs from ./data/pretrained/cnn/imdb/pretrained_init.npy
+2022-04-30 17:24:08,957 - INFO - data_module.py[:62] - Save data for restore
+2022-04-30 17:24:12,631 - INFO - data_module.py[:295] - Train size: 24000 (0: 12004, 1: 11996)
+2022-04-30 17:24:12,631 - INFO - data_module.py[:301] - Val size: 1000 (0: 496, 1: 504)
+2022-04-30 17:24:12,632 - INFO - data_module.py[:307] - Test size: 25000 (0: 12500, 1: 12500)
+2022-04-30 17:24:12,885 - INFO - cnn.py[:20] - Init emb with pre-trained
+2022-04-30 18:09:01,452 - INFO - run_train.py[:420] - Train: epoch 1, loss 0.44984128754189673
+2022-04-30 18:09:01,543 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 18:09:01,544 - INFO - run_train.py[:432] - Val: epoch 1, loss 0.48000337183475494, accuracy 0.847
+2022-04-30 18:09:01,544 - INFO - run_train.py[:434] - Save model at epoch 1
+2022-04-30 18:53:48,466 - INFO - run_train.py[:420] - Train: epoch 2, loss 0.2741775030785419
+2022-04-30 18:53:48,549 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 18:53:48,549 - INFO - run_train.py[:432] - Val: epoch 2, loss 0.4462762326002121, accuracy 0.88
+2022-04-30 18:53:48,549 - INFO - run_train.py[:434] - Save model at epoch 2
+2022-04-30 19:38:40,940 - INFO - run_train.py[:420] - Train: epoch 3, loss 0.17596470168296327
+2022-04-30 19:38:41,021 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 19:38:41,021 - INFO - run_train.py[:432] - Val: epoch 3, loss 0.436398983001709, accuracy 0.882
+2022-04-30 19:38:41,021 - INFO - run_train.py[:434] - Save model at epoch 3
+2022-04-30 20:23:27,926 - INFO - run_train.py[:420] - Train: epoch 4, loss 0.08738773906643087
+2022-04-30 20:23:28,006 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 20:23:28,006 - INFO - run_train.py[:432] - Val: epoch 4, loss 0.4293181225657463, accuracy 0.882
+2022-04-30 20:23:28,006 - INFO - run_train.py[:434] - Save model at epoch 4
+2022-04-30 21:08:15,079 - INFO - run_train.py[:420] - Train: epoch 5, loss 0.03365363374828024
+2022-04-30 21:08:15,160 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 21:08:15,160 - INFO - run_train.py[:432] - Val: epoch 5, loss 0.42829253524541855, accuracy 0.881
+2022-04-30 21:08:15,160 - INFO - run_train.py[:434] - Save model at epoch 5
+2022-04-30 21:53:16,740 - INFO - run_train.py[:420] - Train: epoch 6, loss 0.01281449519731897
+2022-04-30 21:53:16,825 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 21:53:16,826 - INFO - run_train.py[:432] - Val: epoch 6, loss 0.4276024103164673, accuracy 0.881
+2022-04-30 21:53:16,826 - INFO - run_train.py[:434] - Save model at epoch 6
+2022-04-30 22:38:26,418 - INFO - run_train.py[:420] - Train: epoch 7, loss 0.006166094270079059
+2022-04-30 22:38:26,502 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 22:38:26,502 - INFO - run_train.py[:432] - Val: epoch 7, loss 0.4272778034210205, accuracy 0.885
+2022-04-30 22:38:26,502 - INFO - run_train.py[:434] - Save model at epoch 7
+2022-04-30 23:23:25,947 - INFO - run_train.py[:420] - Train: epoch 8, loss 0.003546400969114868
+2022-04-30 23:23:26,026 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-04-30 23:23:26,026 - INFO - run_train.py[:432] - Val: epoch 8, loss 0.42772281914949417, accuracy 0.88
+2022-04-30 23:23:26,027 - INFO - run_train.py[:434] - Save model at epoch 8
+2022-05-01 00:08:09,258 - INFO - run_train.py[:420] - Train: epoch 9, loss 0.0023083361707865557
+2022-05-01 00:08:09,337 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 00:08:09,338 - INFO - run_train.py[:432] - Val: epoch 9, loss 0.4275170862674713, accuracy 0.881
+2022-05-01 00:08:09,338 - INFO - run_train.py[:434] - Save model at epoch 9
+2022-05-01 00:52:51,846 - INFO - run_train.py[:420] - Train: epoch 10, loss 0.0016538695422338044
+2022-05-01 00:52:51,924 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 00:52:51,924 - INFO - run_train.py[:432] - Val: epoch 10, loss 0.4282505139708519, accuracy 0.879
+2022-05-01 00:52:51,924 - INFO - run_train.py[:434] - Save model at epoch 10
+2022-05-01 01:37:32,698 - INFO - run_train.py[:420] - Train: epoch 11, loss 0.0012383364144702778
+2022-05-01 01:37:32,776 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 01:37:32,776 - INFO - run_train.py[:432] - Val: epoch 11, loss 0.42810098826885223, accuracy 0.883
+2022-05-01 01:37:32,776 - INFO - run_train.py[:434] - Save model at epoch 11
+2022-05-01 02:22:13,865 - INFO - run_train.py[:420] - Train: epoch 12, loss 0.0009982419464033732
+2022-05-01 02:22:13,942 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 02:22:13,943 - INFO - run_train.py[:432] - Val: epoch 12, loss 0.42839842289686203, accuracy 0.881
+2022-05-01 02:22:13,943 - INFO - run_train.py[:434] - Save model at epoch 12
+2022-05-01 03:06:55,112 - INFO - run_train.py[:420] - Train: epoch 13, loss 0.0007853820799859835
+2022-05-01 03:06:55,190 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 03:06:55,190 - INFO - run_train.py[:432] - Val: epoch 13, loss 0.4278927519917488, accuracy 0.885
+2022-05-01 03:06:55,190 - INFO - run_train.py[:434] - Save model at epoch 13
+2022-05-01 03:51:38,210 - INFO - run_train.py[:420] - Train: epoch 14, loss 0.0006876052803102326
+2022-05-01 03:51:38,287 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 03:51:38,288 - INFO - run_train.py[:432] - Val: epoch 14, loss 0.4279494509100914, accuracy 0.883
+2022-05-01 03:51:38,288 - INFO - run_train.py[:434] - Save model at epoch 14
+2022-05-01 04:36:20,334 - INFO - run_train.py[:420] - Train: epoch 15, loss 0.0005517878292247336
+2022-05-01 04:36:20,411 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 04:36:20,411 - INFO - run_train.py[:432] - Val: epoch 15, loss 0.42911887913942337, accuracy 0.881
+2022-05-01 04:36:20,411 - INFO - run_train.py[:434] - Save model at epoch 15
+2022-05-01 05:21:01,710 - INFO - run_train.py[:420] - Train: epoch 16, loss 0.0004924147103744698
+2022-05-01 05:21:01,787 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 05:21:01,787 - INFO - run_train.py[:432] - Val: epoch 16, loss 0.4279898405075073, accuracy 0.884
+2022-05-01 05:21:01,787 - INFO - run_train.py[:434] - Save model at epoch 16
+2022-05-01 06:05:43,102 - INFO - run_train.py[:420] - Train: epoch 17, loss 0.00039900385835356616
+2022-05-01 06:05:43,179 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 06:05:43,179 - INFO - run_train.py[:432] - Val: epoch 17, loss 0.42883051186800003, accuracy 0.879
+2022-05-01 06:05:43,180 - INFO - run_train.py[:434] - Save model at epoch 17
+2022-05-01 06:50:23,663 - INFO - run_train.py[:420] - Train: epoch 18, loss 0.0003524276053599835
+2022-05-01 06:50:23,739 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 06:50:23,739 - INFO - run_train.py[:432] - Val: epoch 18, loss 0.4281712621450424, accuracy 0.881
+2022-05-01 06:50:23,739 - INFO - run_train.py[:434] - Save model at epoch 18
+2022-05-01 07:35:03,715 - INFO - run_train.py[:420] - Train: epoch 19, loss 0.0003194690586322859
+2022-05-01 07:35:03,792 - INFO - run_train.py[:430] - Best epoch up to now: (1, 0.847)
+2022-05-01 07:35:03,793 - INFO - run_train.py[:432] - Val: epoch 19, loss 0.42875775694847107, accuracy 0.882
+2022-05-01 07:35:03,793 - INFO - run_train.py[:434] - Save model at epoch 19
+2022-05-01 08:19:43,556 - INFO - run_train.py[:420] - Train: epoch 20, loss 0.00026381813090955937
+2022-05-01 08:19:43,633 - INFO - run_train.py[:430] - Best epoch up to now: (7, 0.4272)
+2022-05-01 08:19:43,633 - INFO - run_train.py[:432] - Val: epoch 20, loss 0.4286683723330498, accuracy 0.881
+2022-05-01 08:19:43,633 - INFO - run_train.py[:434] - Save model at epoch 20

@@ -1,0 +1,52 @@
+2022-05-09 23:30:26,649 - INFO - train_detector.py[:388] - Total data number:3000
+2022-05-09 23:30:26,745 - INFO - train_detector.py[:212] - sucess saved model!
+2022-05-09 23:30:26,750 - INFO - train_detector.py[:215] - ----------train eval----------
+2022-05-09 23:30:26,760 - INFO - train_detector.py[:164] -               precision    recall  f1-score   support
+
+           0      0.983     0.940     0.961      1189
+           1      0.944     0.984     0.964      1211
+
+    accuracy                          0.963      2400
+   macro avg      0.964     0.962     0.962      2400
+weighted avg      0.963     0.963     0.962      2400
+
+2022-05-09 23:30:26,764 - INFO - train_detector.py[:165] - [[1118   71]
+ [  19 1192]]
+2022-05-09 23:30:26,767 - INFO - train_detector.py[:218] - ----------test eval----------
+2022-05-09 23:30:26,774 - INFO - train_detector.py[:164] -               precision    recall  f1-score   support
+
+           0      0.997     0.961     0.979       311
+           1      0.960     0.997     0.978       289
+
+    accuracy                          0.978       600
+   macro avg      0.978     0.979     0.978       600
+weighted avg      0.979     0.978     0.978       600
+
+2022-05-09 23:30:26,777 - INFO - train_detector.py[:165] - [[299  12]
+ [  1 288]]
+2022-05-10 15:44:16,446 - INFO - train_detector.py[:388] - Total data number:3000
+2022-05-10 15:44:16,534 - INFO - train_detector.py[:212] - sucess saved model!
+2022-05-10 15:44:16,543 - INFO - train_detector.py[:215] - ----------train eval----------
+2022-05-10 15:44:16,556 - INFO - train_detector.py[:164] -               precision    recall  f1-score   support
+
+           0      0.983     0.940     0.961      1189
+           1      0.944     0.984     0.964      1211
+
+    accuracy                          0.963      2400
+   macro avg      0.964     0.962     0.962      2400
+weighted avg      0.963     0.963     0.962      2400
+
+2022-05-10 15:44:16,561 - INFO - train_detector.py[:165] - [[1118   71]
+ [  19 1192]]
+2022-05-10 15:44:16,564 - INFO - train_detector.py[:218] - ----------test eval----------
+2022-05-10 15:44:16,571 - INFO - train_detector.py[:164] -               precision    recall  f1-score   support
+
+           0      0.997     0.961     0.979       311
+           1      0.960     0.997     0.978       289
+
+    accuracy                          0.978       600
+   macro avg      0.978     0.979     0.978       600
+weighted avg      0.979     0.978     0.978       600
+
+2022-05-10 15:44:16,573 - INFO - train_detector.py[:165] - [[299  12]
+ [  1 288]]
